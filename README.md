@@ -4,8 +4,11 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Gatsby minimal starter...
 </h1>
+<h2>
+  ...playground for me
+</h2>
 
 ## 🚀 Quick start
 
