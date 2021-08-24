@@ -10,6 +10,8 @@ const BlogPage = ({ data }) => {
         data.allFile.nodes.map(node => (
           <li key={node.name}>
             {node.name}
+            <br></br>
+            {node.mtime}
           </li>
         ))
       }
@@ -23,6 +25,7 @@ export const query = graphql`
         allFile {
             nodes {
                 name
+                mtime(formatString: "DD/MM/YY")
             }
         }
     }

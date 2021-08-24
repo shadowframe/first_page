@@ -14,5 +14,11 @@ module.exports = {
         path: `${__dirname}/blog`,
       }
     },
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'de'
+      }
+    }
 ],
 };
